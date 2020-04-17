@@ -1,0 +1,7 @@
+light blue = #43b3e6
+shadow header = #d1d2d4
+separator = #939597
+Font title = #404041
+font desc = #808284
+Background = #ffffff
+Background invite friend = #f1f1f2

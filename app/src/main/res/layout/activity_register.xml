@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:background="@drawable/shade_header">
+
+        <ImageView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            app:srcCompat="@drawable/ic_header" />
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/ic_header_back" />
+
+        <TextView
+            android:id="@+id/txt_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/back"
+            android:text="@string/title_register"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/username_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8E8E91"
+        android:hint="@string/username_register"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="26dp"
+        android:textColor="#070000"
+        android:textColorHint="#8E8E91" />
+
+    <EditText
+        android:id="@+id/email_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8E8E91"
+        android:hint="@string/email_register"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="26dp"
+        android:textColor="#070000"
+        android:textColorHint="#8E8E91" />
+
+    <EditText
+        android:id="@+id/phone_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8E8E91"
+        android:hint="@string/phone_register"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="26dp"
+        android:textColor="#070000"
+        android:textColorHint="#8E8E91" />
+
+
+    <RadioGroup
+            android:id="@+id/radio_grup_jk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginEnd="26dp">
+
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="5dp"
+            android:checked="true"
+            android:text="@string/radio_male"
+            android:textColor="#8E8E91"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/radio_female"
+            android:textColor="#8E8E91"
+            android:textSize="18sp" />
+
+        </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="26dp">
+
+        <Spinner
+            android:id="@+id/blood"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/shader_template"
+            android:textColor="#8E8E91">
+
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/reshus"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="30dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/shader_template"
+            android:textColor="#8E8E91">
+
+        </Spinner>
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/password_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8E8E91"
+        android:hint="@string/password_register"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="26dp"
+        android:textColor="#070000"
+        android:textColorHint="#8E8E91" />
+
+    <EditText
+        android:id="@+id/repassword_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8E8E91"
+        android:hint="@string/retype_password_register"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="26dp"
+        android:textColor="#070000"
+        android:textColorHint="#8E8E91" />
+
+    <RadioGroup
+        android:id="@+id/radio_grup_org"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="26dp">
+
+        <RadioButton
+            android:id="@+id/radioPersonal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="5dp"
+            android:checked="true"
+            android:text="@string/radio_personal"
+            android:textColor="#8E8E91"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioOrganization"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="-13dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/radio_organization"
+            android:textColor="#8E8E91"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/job"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="26dp"
+        android:background="@drawable/shader_template"
+        android:textColor="#8E8E91">
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/address_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8E8E91"
+        android:hint="@string/address_register"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="26dp"
+        android:textColor="#070000"
+        android:textColorHint="#8E8E91" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="26dp">
+
+        <EditText
+            android:id="@+id/location_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#8E8E91"
+            android:hint="@string/location_register"
+            android:inputType="text"
+            android:textColor="#070000"
+            android:textColorHint="#8E8E91" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            app:srcCompat="@drawable/ic_blood_needed_location" />
+
+    </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/agree_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/check_agree"
+        android:textColor="#8E8E91"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="26dp"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/register_border"
+        android:text="@string/txt_btn_register"
+        android:textColor="#43b3e6" />
+
+</LinearLayout>

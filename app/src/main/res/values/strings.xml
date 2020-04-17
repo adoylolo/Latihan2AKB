@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Latihan2</string>
+    <string name="txt_username_login">Username</string>
+    <string name="txt_password_login">Password</string>
+    <string name="btn_login_login">LOGIN</string>
+    <string name="text_or_login">OR</string>
+    <string name="txt_connect_login">CONNECT TO FACEBOOK</string>
+    <string name="txt_register_login">doesn\'t jave account ? <b>Register</b></string>
+    <string name="resend">doesn\'t get the code? <b>Resend</b></string>
+    <string name="title_register">Register</string>
+    <string name="username_register">Username</string>
+    <string name="email_register">Email</string>
+    <string name="phone_register">Phone Number</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="password_register">Password</string>
+    <string name="retype_password_register">Retype Password</string>
+    <string name="radio_personal">Personal</string>
+    <string name="radio_organization">Organization</string>
+    <string name="address_register">Home Address</string>
+    <string name="location_register">Default Location</string>
+    <string name="check_agree">Agree with Terms and Conditions</string>
+    <string name="txt_btn_register">Register</string>
+    <string name="title_almost_there">Almost There</string>
+    <string name="desc_almost_there">Thank you for registering with us. One more step, you need to check your email to activate your account</string>
+    <string name="txt_btn_verify">VERIFY</string>
+    <string name="title_verify_account">Verify your Account</string>
+    <string name="send_verification">We have send verification code to your email</string>
+    <string name="verification_code">enter verification code here</string>
+    <string name="text_btn_send">SEND</string>
+    <string name="profile_blood_type">Blood Type : O</string>
+    <string name="blood_give_number">75</string>
+    <string name="blood_received_number">100</string>
+    <string name="thanks_number">330</string>
+    <string name="txt_blood_give">BLOOD GIVE</string>
+    <string name="txt_blood_received">BLOOD RECEIVED</string>
+    <string name="txt_thanks">THANKS</string>
+    <string name="txt_seach_donor">Search Donor</string>
+    <string name="txt_blood_needed">Blood Needed</string>
+    <string name="seacrh_near_you">Search donor near you</string>
+    <string name="user_need_blood">4 Users need blood</string>
+    <string name="txt_message">Message</string>
+    <string name="txt_donor_history">Donor History</string>
+    <string name="new_message">5 New Message</string>
+    <string name="gives_received">5 Gives , 2 Received</string>
+
+    <string-array name="jenisblood">
+        <item>Blood Type</item>
+        <item>A</item>
+        <item>B</item>
+        <item>O</item>
+        <item>AB</item>
+    </string-array>
+
+    <string-array name="jenisreshus">
+        <item>Reshus</item>
+        <item>Reshus A</item>
+        <item>Reshus B</item>
+    </string-array>
+
+    <string-array name="jenispekerjaan">
+        <item>Job</item>
+        <item>Job A</item>
+        <item>Job B</item>
+    </string-array>
+
+</resources>

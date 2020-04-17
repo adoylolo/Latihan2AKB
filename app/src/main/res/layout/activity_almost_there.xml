@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#43b3e6"
+    android:padding="26dp"
+    tools:context=".AlmostThere">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:text="@string/title_almost_there"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="@string/desc_almost_there"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/btn_verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/login_border"
+        android:text="@string/txt_btn_verify"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
